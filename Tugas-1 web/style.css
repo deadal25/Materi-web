@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(227, 169, 169);
+}
+.grid-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ini akan membuat item sejajar dan merata */
+}
+
+.portfolio {
+    flex-basis: calc(33.33% - 20px); /* Membuat setiap item sejajar dengan lebar yang sama */
+    margin-bottom: 20px; /* Memberi jarak antara item */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding:  10px;
+    background-color: rgb(227, 169, 169);
+  }
+  
+  nav ul {
+    
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    color: rgb(17, 82, 147);
+  }
+  
+  /* Logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  
+  .logo a {
+    color: rgb(17, 82, 147);
+  }
+  
+  nav ul li {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li a {
+    color: var(--primaryTextColor);
+  }
+
+footer {
+    background-color: #333; 
+    color: white; 
+    text-align: center;
+    padding: 20px; 
+}
+
+footer p {
+    font-size: 14px; 
+    margin: 0; 
+}
+
+
+
+  
+  
